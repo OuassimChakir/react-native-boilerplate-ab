@@ -1,15 +1,15 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import * as React from 'react';
-import AndroidLogo from '../screens/androidlogo/AndroidLogo';
+import Home from '../screens/home/Home';
 
 const Stack = createNativeStackNavigator();
 
 const AuthStack = () => {
   return (
-    <Stack.Navigator initialRouteName="AndroidLogo">
+    <Stack.Navigator initialRouteName="Home">
       <Stack.Screen
-        name="Android"
-        component={AndroidLogo}
+        name="Home"
+        component={Home}
         options={{
           headerShown: false,
           animation: 'slide_from_right',
