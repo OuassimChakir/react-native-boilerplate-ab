@@ -16,7 +16,7 @@ const Navigation = () => {
 
   return (
     <NavigationContainer ref={navigationRef}>
-      {!token ? (
+      {token ? (
         <Stack.Navigator>
           <Stack.Screen
             name="Login"

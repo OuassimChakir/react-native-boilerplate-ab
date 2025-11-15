@@ -1,6 +1,7 @@
 const fondCadre = '#E7E9EF';
 const violet = '#7D4E5B';
 const main = '#a26859';
+const mainPurple = '#822C41';
 
 const blue = '#007bff';
 const indigo = '#6610f2';
